@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ModelImportAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ModelImportAppDelegate.m */; };
+		3C041BAE129EB270004302EC /* 3DSceneObjectInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C041BAD129EB270004302EC /* 3DSceneObjectInstance.m */; };
+		3C04249211F285420015C654 /* HeirarchyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C04249111F285420015C654 /* HeirarchyNode.m */; };
+		3C07590E12821B790035CA87 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C07590D12821B790035CA87 /* sky.png */; };
+		3C10D7451399441D00351780 /* MaterialResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C10D7441399441C00351780 /* MaterialResource.m */; };
+		3C10D748139A8DC200351780 /* MaterialEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C10D747139A8DBF00351780 /* MaterialEditorController.m */; };
+		3C1D75881280BED2007A1C81 /* transform.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D75871280BED1007A1C81 /* transform.png */; };
+		3C1D758A1280C002007A1C81 /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D75891280C002007A1C81 /* rotate.png */; };
+		3C1D758C1280C168007A1C81 /* scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D758B1280C168007A1C81 /* scale.png */; };
+		3C1D758F1280CD84007A1C81 /* 3DLayoutEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D758E1280CD84007A1C81 /* 3DLayoutEditorController.m */; };
+		3C1D759E1280E594007A1C81 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D759D1280E594007A1C81 /* texture.png */; };
+		3C2D6DCA11FBAF5700BA5D5E /* 3DModelEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D6DC911FBAF5700BA5D5E /* 3DModelEditorController.m */; };
+		3C5D26AA13887EAC004A7F8B /* MayaScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D26A913887EAC004A7F8B /* MayaScene.mm */; };
+		3C605D67120360E90031EB78 /* ObjParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C605D66120360E90031EB78 /* ObjParser.m */; };
+		3C7E97F41201B5040028E46A /* 3DModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7E97F31201B5040028E46A /* 3DModelView.m */; };
+		3C7E97F71201BD020028E46A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7E97F61201BD020028E46A /* OpenGL.framework */; };
+		3C803EB513D1F20E004F844A /* FileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C803EB413D1F20E004F844A /* FileStream.m */; };
+		3CBAE9D4129AC69800BCD614 /* 3DSceneEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAE9D3129AC69800BCD614 /* 3DSceneEditorView.m */; };
+		3CC1B8A811E4FE5B0051330C /* ResourceEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1B8A711E4FE5B0051330C /* ResourceEditController.m */; };
+		3CD4F99711E7B82000D3A45C /* ResourceEditor.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4F99611E7B82000D3A45C /* ResourceEditor.icns */; };
+		3CD87C8E151D724E00AD3189 /* Vector3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87C8D151D724E00AD3189 /* Vector3.m */; };
+		3CD87CBF151D78CA00AD3189 /* Box3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87CBE151D78CA00AD3189 /* Box3D.m */; };
+		3CD87CC2151E467500AD3189 /* 3DObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87CC1151E467500AD3189 /* 3DObjectView.m */; };
+		3CD87CC5151E472B00AD3189 /* 3DObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87CC4151E472A00AD3189 /* 3DObject.m */; };
+		3CD87CC8151E59DB00AD3189 /* Plane.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD87CC7151E59DB00AD3189 /* Plane.m */; };
+		3CD989FE129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD989FD129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.m */; };
+		3CE1FA1411E63B8700B57F09 /* NewResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FA1311E63B8700B57F09 /* NewResourceController.m */; };
+		3CE1FABA11E6B79400B57F09 /* ResourceListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FAB911E6B79400B57F09 /* ResourceListController.m */; };
+		3CE1FAC911E6B9A600B57F09 /* ResourceListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1FAC811E6B9A600B57F09 /* ResourceListModel.m */; };
+		3CE50EE213DF78E8007D7850 /* 3DSceneLayoutResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE50EE113DF78E8007D7850 /* 3DSceneLayoutResource.m */; };
+		3CEC746213B3D35500B4D321 /* 2DSceneObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC746113B3D35400B4D321 /* 2DSceneObjects.m */; };
+		3CECE11F13CCD07D007FF858 /* TextureEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECE11E13CCD07C007FF858 /* TextureEditorController.m */; };
+		3CECE12613CCE4BC007FF858 /* TextureResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECE12513CCE4BB007FF858 /* TextureResource.m */; };
+		3CECE12913CD4792007FF858 /* ShaderEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECE12813CD478C007FF858 /* ShaderEditorController.m */; };
+		3CECE12C13CD4CBC007FF858 /* ShaderResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CECE12B13CD4CBB007FF858 /* ShaderResource.m */; };
+		3CEEEDC712009DC300F61694 /* 3DModelResource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEEDC612009DC300F61694 /* 3DModelResource.mm */; };
+		3CF1AA0E11F678F2004B9F91 /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1AA0D11F678F2004B9F91 /* Resource.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ModelImportAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelImportAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ModelImportAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelImportAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Resource Edit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Resource Edit_Prefix.pch"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3C041BAC129EB270004302EC /* 3DSceneObjectInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSceneObjectInstance.h; path = src/models/3DSceneObjectInstance.h; sourceTree = "<group>"; };
+		3C041BAD129EB270004302EC /* 3DSceneObjectInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DSceneObjectInstance.m; path = src/models/3DSceneObjectInstance.m; sourceTree = "<group>"; };
+		3C04249011F285420015C654 /* HeirarchyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeirarchyNode.h; path = src/models/HeirarchyNode.h; sourceTree = "<group>"; };
+		3C04249111F285420015C654 /* HeirarchyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeirarchyNode.m; path = src/models/HeirarchyNode.m; sourceTree = "<group>"; };
+		3C07590D12821B790035CA87 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		3C10D7431399441B00351780 /* MaterialResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaterialResource.h; path = src/models/MaterialResource.h; sourceTree = "<group>"; };
+		3C10D7441399441C00351780 /* MaterialResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaterialResource.m; path = src/models/MaterialResource.m; sourceTree = "<group>"; };
+		3C10D746139A8DBE00351780 /* MaterialEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaterialEditorController.h; path = src/Controllers/MaterialEditorController.h; sourceTree = "<group>"; };
+		3C10D747139A8DBF00351780 /* MaterialEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaterialEditorController.m; path = src/Controllers/MaterialEditorController.m; sourceTree = "<group>"; };
+		3C1D75871280BED1007A1C81 /* transform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transform.png; sourceTree = "<group>"; };
+		3C1D75891280C002007A1C81 /* rotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotate.png; sourceTree = "<group>"; };
+		3C1D758B1280C168007A1C81 /* scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scale.png; sourceTree = "<group>"; };
+		3C1D758D1280CD84007A1C81 /* 3DLayoutEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DLayoutEditorController.h; path = src/Controllers/3DLayoutEditorController.h; sourceTree = "<group>"; };
+		3C1D758E1280CD84007A1C81 /* 3DLayoutEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DLayoutEditorController.m; path = src/Controllers/3DLayoutEditorController.m; sourceTree = "<group>"; };
+		3C1D759D1280E594007A1C81 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		3C2D6DC811FBAF5700BA5D5E /* 3DModelEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DModelEditorController.h; path = src/Controllers/3DModelEditorController.h; sourceTree = "<group>"; };
+		3C2D6DC911FBAF5700BA5D5E /* 3DModelEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DModelEditorController.m; path = src/Controllers/3DModelEditorController.m; sourceTree = "<group>"; };
+		3C5D26A813887EAC004A7F8B /* MayaScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MayaScene.h; path = src/Utilities/MayaScene.h; sourceTree = "<group>"; };
+		3C5D26A913887EAC004A7F8B /* MayaScene.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MayaScene.mm; path = src/Utilities/MayaScene.mm; sourceTree = "<group>"; };
+		3C605D65120360E90031EB78 /* ObjParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjParser.h; path = src/Utilities/ObjParser.h; sourceTree = "<group>"; };
+		3C605D66120360E90031EB78 /* ObjParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjParser.m; path = src/Utilities/ObjParser.m; sourceTree = "<group>"; };
+		3C7E97F21201B5030028E46A /* 3DModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DModelView.h; path = src/Views/3DModelView.h; sourceTree = "<group>"; };
+		3C7E97F31201B5040028E46A /* 3DModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DModelView.m; path = src/Views/3DModelView.m; sourceTree = "<group>"; };
+		3C7E97F61201BD020028E46A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3C803EB313D1F20E004F844A /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileStream.h; path = src/Utilities/FileStream.h; sourceTree = "<group>"; };
+		3C803EB413D1F20E004F844A /* FileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileStream.m; path = src/Utilities/FileStream.m; sourceTree = "<group>"; };
+		3CBAE9D2129AC69800BCD614 /* 3DSceneEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSceneEditorView.h; path = src/Views/3DSceneEditorView.h; sourceTree = "<group>"; };
+		3CBAE9D3129AC69800BCD614 /* 3DSceneEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DSceneEditorView.m; path = src/Views/3DSceneEditorView.m; sourceTree = "<group>"; };
+		3CC1B8A611E4FE5B0051330C /* ResourceEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceEditController.h; path = src/Controllers/ResourceEditController.h; sourceTree = "<group>"; };
+		3CC1B8A711E4FE5B0051330C /* ResourceEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceEditController.m; path = src/Controllers/ResourceEditController.m; sourceTree = "<group>"; };
+		3CD4F99611E7B82000D3A45C /* ResourceEditor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ResourceEditor.icns; sourceTree = "<group>"; };
+		3CD87C8C151D724E00AD3189 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = src/Math/Vector3.h; sourceTree = "<group>"; };
+		3CD87C8D151D724E00AD3189 /* Vector3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vector3.m; path = src/Math/Vector3.m; sourceTree = "<group>"; };
+		3CD87CBD151D78CA00AD3189 /* Box3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Box3D.h; path = src/Math/Box3D.h; sourceTree = "<group>"; };
+		3CD87CBE151D78CA00AD3189 /* Box3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Box3D.m; path = src/Math/Box3D.m; sourceTree = "<group>"; };
+		3CD87CC0151E467500AD3189 /* 3DObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DObjectView.h; path = src/Views/3DObjectView.h; sourceTree = "<group>"; };
+		3CD87CC1151E467500AD3189 /* 3DObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DObjectView.m; path = src/Views/3DObjectView.m; sourceTree = "<group>"; };
+		3CD87CC3151E472A00AD3189 /* 3DObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DObject.h; path = src/models/3DObject.h; sourceTree = "<group>"; };
+		3CD87CC4151E472A00AD3189 /* 3DObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DObject.m; path = src/models/3DObject.m; sourceTree = "<group>"; };
+		3CD87CC6151E59DA00AD3189 /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plane.h; path = src/Math/Plane.h; sourceTree = "<group>"; };
+		3CD87CC7151E59DB00AD3189 /* Plane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Plane.m; path = src/Math/Plane.m; sourceTree = "<group>"; };
+		3CD989FC129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSceneLayoutObjectListController.h; path = src/Controllers/3DSceneLayoutObjectListController.h; sourceTree = "<group>"; };
+		3CD989FD129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DSceneLayoutObjectListController.m; path = src/Controllers/3DSceneLayoutObjectListController.m; sourceTree = "<group>"; };
+		3CE1FA1211E63B8700B57F09 /* NewResourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewResourceController.h; path = src/Controllers/NewResourceController.h; sourceTree = "<group>"; };
+		3CE1FA1311E63B8700B57F09 /* NewResourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewResourceController.m; path = src/Controllers/NewResourceController.m; sourceTree = "<group>"; };
+		3CE1FAB811E6B79400B57F09 /* ResourceListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceListController.h; path = src/Controllers/ResourceListController.h; sourceTree = "<group>"; };
+		3CE1FAB911E6B79400B57F09 /* ResourceListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceListController.m; path = src/Controllers/ResourceListController.m; sourceTree = "<group>"; };
+		3CE1FAC711E6B9A600B57F09 /* ResourceListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceListModel.h; path = src/models/ResourceListModel.h; sourceTree = "<group>"; };
+		3CE1FAC811E6B9A600B57F09 /* ResourceListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceListModel.m; path = src/models/ResourceListModel.m; sourceTree = "<group>"; };
+		3CE50EE013DF78E8007D7850 /* 3DSceneLayoutResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSceneLayoutResource.h; path = src/models/3DSceneLayoutResource.h; sourceTree = "<group>"; };
+		3CE50EE113DF78E8007D7850 /* 3DSceneLayoutResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 3DSceneLayoutResource.m; path = src/models/3DSceneLayoutResource.m; sourceTree = "<group>"; };
+		3CEC746013B3D35300B4D321 /* 2DSceneObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 2DSceneObjects.h; path = src/models/2DSceneObjects.h; sourceTree = "<group>"; };
+		3CEC746113B3D35400B4D321 /* 2DSceneObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = 2DSceneObjects.m; path = src/models/2DSceneObjects.m; sourceTree = "<group>"; };
+		3CECE11D13CCD07C007FF858 /* TextureEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureEditorController.h; path = src/Controllers/TextureEditorController.h; sourceTree = "<group>"; };
+		3CECE11E13CCD07C007FF858 /* TextureEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextureEditorController.m; path = src/Controllers/TextureEditorController.m; sourceTree = "<group>"; };
+		3CECE12413CCE4BB007FF858 /* TextureResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureResource.h; path = src/models/TextureResource.h; sourceTree = "<group>"; };
+		3CECE12513CCE4BB007FF858 /* TextureResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextureResource.m; path = src/models/TextureResource.m; sourceTree = "<group>"; };
+		3CECE12713CD478B007FF858 /* ShaderEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShaderEditorController.h; path = src/Controllers/ShaderEditorController.h; sourceTree = "<group>"; };
+		3CECE12813CD478C007FF858 /* ShaderEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShaderEditorController.m; path = src/Controllers/ShaderEditorController.m; sourceTree = "<group>"; };
+		3CECE12A13CD4CB9007FF858 /* ShaderResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShaderResource.h; path = src/models/ShaderResource.h; sourceTree = "<group>"; };
+		3CECE12B13CD4CBB007FF858 /* ShaderResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShaderResource.m; path = src/models/ShaderResource.m; sourceTree = "<group>"; };
+		3CEEEDC512009DC300F61694 /* 3DModelResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DModelResource.h; path = src/models/3DModelResource.h; sourceTree = "<group>"; };
+		3CEEEDC612009DC300F61694 /* 3DModelResource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = 3DModelResource.mm; path = src/models/3DModelResource.mm; sourceTree = "<group>"; };
+		3CF1AA0C11F678F2004B9F91 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resource.h; path = src/models/Resource.h; sourceTree = "<group>"; };
+		3CF1AA0D11F678F2004B9F91 /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resource.m; path = src/models/Resource.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Resource Edit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Resource Edit-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Resource Edit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resource Edit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3C7E97F71201BD020028E46A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C605D68120360EE0031EB78 /* Utilities */,
+				3C7E97F51201B5090028E46A /* Views */,
+				3CE1FAC411E6B91800B57F09 /* Models */,
+				3CC1B8AA11E4FE670051330C /* Controllers */,
+				3CD87C8F151D725400AD3189 /* Math */,
+				256AC3D80F4B6AC300CF3369 /* ModelImportAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ModelImportAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E97F61201BD020028E46A /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Resource Edit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ModelImport */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ModelImport;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Resource Edit_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C07590D12821B790035CA87 /* sky.png */,
+				3C1D759D1280E594007A1C81 /* texture.png */,
+				3C1D758B1280C168007A1C81 /* scale.png */,
+				3C1D75891280C002007A1C81 /* rotate.png */,
+				3C1D75871280BED1007A1C81 /* transform.png */,
+				3CD4F99611E7B82000D3A45C /* ResourceEditor.icns */,
+				8D1107310486CEB800E47090 /* Resource Edit-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C605D68120360EE0031EB78 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3C605D65120360E90031EB78 /* ObjParser.h */,
+				3C605D66120360E90031EB78 /* ObjParser.m */,
+				3C5D26A813887EAC004A7F8B /* MayaScene.h */,
+				3C5D26A913887EAC004A7F8B /* MayaScene.mm */,
+				3C803EB313D1F20E004F844A /* FileStream.h */,
+				3C803EB413D1F20E004F844A /* FileStream.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3C7E97F51201B5090028E46A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CD87CC0151E467500AD3189 /* 3DObjectView.h */,
+				3CD87CC1151E467500AD3189 /* 3DObjectView.m */,
+				3CBAE9D2129AC69800BCD614 /* 3DSceneEditorView.h */,
+				3CBAE9D3129AC69800BCD614 /* 3DSceneEditorView.m */,
+				3C7E97F21201B5030028E46A /* 3DModelView.h */,
+				3C7E97F31201B5040028E46A /* 3DModelView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3CC1B8AA11E4FE670051330C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CD989FC129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.h */,
+				3CD989FD129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.m */,
+				3C1D758D1280CD84007A1C81 /* 3DLayoutEditorController.h */,
+				3C1D758E1280CD84007A1C81 /* 3DLayoutEditorController.m */,
+				3CC1B8A611E4FE5B0051330C /* ResourceEditController.h */,
+				3CC1B8A711E4FE5B0051330C /* ResourceEditController.m */,
+				3C2D6DC811FBAF5700BA5D5E /* 3DModelEditorController.h */,
+				3C2D6DC911FBAF5700BA5D5E /* 3DModelEditorController.m */,
+				3CE1FA1211E63B8700B57F09 /* NewResourceController.h */,
+				3CE1FA1311E63B8700B57F09 /* NewResourceController.m */,
+				3CE1FAB811E6B79400B57F09 /* ResourceListController.h */,
+				3CE1FAB911E6B79400B57F09 /* ResourceListController.m */,
+				3C10D746139A8DBE00351780 /* MaterialEditorController.h */,
+				3C10D747139A8DBF00351780 /* MaterialEditorController.m */,
+				3CECE11D13CCD07C007FF858 /* TextureEditorController.h */,
+				3CECE11E13CCD07C007FF858 /* TextureEditorController.m */,
+				3CECE12713CD478B007FF858 /* ShaderEditorController.h */,
+				3CECE12813CD478C007FF858 /* ShaderEditorController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3CD87C8F151D725400AD3189 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				3CD87C8C151D724E00AD3189 /* Vector3.h */,
+				3CD87C8D151D724E00AD3189 /* Vector3.m */,
+				3CD87CBD151D78CA00AD3189 /* Box3D.h */,
+				3CD87CBE151D78CA00AD3189 /* Box3D.m */,
+				3CD87CC6151E59DA00AD3189 /* Plane.h */,
+				3CD87CC7151E59DB00AD3189 /* Plane.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		3CE1FAC411E6B91800B57F09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CD87CC3151E472A00AD3189 /* 3DObject.h */,
+				3CD87CC4151E472A00AD3189 /* 3DObject.m */,
+				3C041BAC129EB270004302EC /* 3DSceneObjectInstance.h */,
+				3C041BAD129EB270004302EC /* 3DSceneObjectInstance.m */,
+				3CEC746013B3D35300B4D321 /* 2DSceneObjects.h */,
+				3CEC746113B3D35400B4D321 /* 2DSceneObjects.m */,
+				3CEEEDC512009DC300F61694 /* 3DModelResource.h */,
+				3CEEEDC612009DC300F61694 /* 3DModelResource.mm */,
+				3CE50EE013DF78E8007D7850 /* 3DSceneLayoutResource.h */,
+				3CE50EE113DF78E8007D7850 /* 3DSceneLayoutResource.m */,
+				3C10D7431399441B00351780 /* MaterialResource.h */,
+				3C10D7441399441C00351780 /* MaterialResource.m */,
+				3CE1FAC711E6B9A600B57F09 /* ResourceListModel.h */,
+				3CE1FAC811E6B9A600B57F09 /* ResourceListModel.m */,
+				3C04249011F285420015C654 /* HeirarchyNode.h */,
+				3C04249111F285420015C654 /* HeirarchyNode.m */,
+				3CF1AA0C11F678F2004B9F91 /* Resource.h */,
+				3CF1AA0D11F678F2004B9F91 /* Resource.m */,
+				3CECE12413CCE4BB007FF858 /* TextureResource.h */,
+				3CECE12513CCE4BB007FF858 /* TextureResource.m */,
+				3CECE12A13CD4CB9007FF858 /* ShaderResource.h */,
+				3CECE12B13CD4CBB007FF858 /* ShaderResource.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Resource Edit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Resource Edit" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resource Edit";
+			productInstallPath = "$(HOME)/Applications";
+			productName = ModelImport;
+			productReference = 8D1107320486CEB800E47090 /* Resource Edit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Resource Edit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ModelImport */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Resource Edit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				3CD4F99711E7B82000D3A45C /* ResourceEditor.icns in Resources */,
+				3C1D75881280BED2007A1C81 /* transform.png in Resources */,
+				3C1D758A1280C002007A1C81 /* rotate.png in Resources */,
+				3C1D758C1280C168007A1C81 /* scale.png in Resources */,
+				3C1D759E1280E594007A1C81 /* texture.png in Resources */,
+				3C07590E12821B790035CA87 /* sky.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ModelImportAppDelegate.m in Sources */,
+				3CC1B8A811E4FE5B0051330C /* ResourceEditController.m in Sources */,
+				3CE1FA1411E63B8700B57F09 /* NewResourceController.m in Sources */,
+				3CE1FABA11E6B79400B57F09 /* ResourceListController.m in Sources */,
+				3CE1FAC911E6B9A600B57F09 /* ResourceListModel.m in Sources */,
+				3C04249211F285420015C654 /* HeirarchyNode.m in Sources */,
+				3CF1AA0E11F678F2004B9F91 /* Resource.m in Sources */,
+				3C2D6DCA11FBAF5700BA5D5E /* 3DModelEditorController.m in Sources */,
+				3CEEEDC712009DC300F61694 /* 3DModelResource.mm in Sources */,
+				3C7E97F41201B5040028E46A /* 3DModelView.m in Sources */,
+				3C605D67120360E90031EB78 /* ObjParser.m in Sources */,
+				3C1D758F1280CD84007A1C81 /* 3DLayoutEditorController.m in Sources */,
+				3CBAE9D4129AC69800BCD614 /* 3DSceneEditorView.m in Sources */,
+				3CD989FE129CA87E000CF9F0 /* 3DSceneLayoutObjectListController.m in Sources */,
+				3C041BAE129EB270004302EC /* 3DSceneObjectInstance.m in Sources */,
+				3C5D26AA13887EAC004A7F8B /* MayaScene.mm in Sources */,
+				3C10D7451399441D00351780 /* MaterialResource.m in Sources */,
+				3C10D748139A8DC200351780 /* MaterialEditorController.m in Sources */,
+				3CEC746213B3D35500B4D321 /* 2DSceneObjects.m in Sources */,
+				3CECE11F13CCD07D007FF858 /* TextureEditorController.m in Sources */,
+				3CECE12613CCE4BC007FF858 /* TextureResource.m in Sources */,
+				3CECE12913CD4792007FF858 /* ShaderEditorController.m in Sources */,
+				3CECE12C13CD4CBC007FF858 /* ShaderResource.m in Sources */,
+				3C803EB513D1F20E004F844A /* FileStream.m in Sources */,
+				3CE50EE213DF78E8007D7850 /* 3DSceneLayoutResource.m in Sources */,
+				3CD87C8E151D724E00AD3189 /* Vector3.m in Sources */,
+				3CD87CBF151D78CA00AD3189 /* Box3D.m in Sources */,
+				3CD87CC2151E467500AD3189 /* 3DObjectView.m in Sources */,
+				3CD87CC5151E472B00AD3189 /* 3DObject.m in Sources */,
+				3CD87CC8151E59DB00AD3189 /* Plane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ARC_MIGRATION = donothing;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resource Edit_Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(MAYA_DIRECTORY)/devkit/include/",
+					/usr/local/include/eigen3/,
+				);
+				INFOPLIST_FILE = "Resource Edit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS";
+				MAYA_DIRECTORY = /Applications/Autodesk/maya2013;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-lShared",
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-lShared",
+					"-lDataModel",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-lFoundation",
+				);
+				PRODUCT_NAME = "Resource Edit";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ARC_MIGRATION = donothing;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resource Edit_Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(MAYA_DIRECTORY)/devkit/include/",
+					/usr/local/include/eigen3/,
+				);
+				INFOPLIST_FILE = "Resource Edit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS";
+				MAYA_DIRECTORY = /Applications/Autodesk/maya2013;
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-lShared",
+					"-Wl,-executable_path,$(MAYA_DIRECTORY)/Maya.app/Contents/MacOS",
+					"-lShared",
+					"-lDataModel",
+					"-lOpenMayaAnim",
+					"-lOpenMaya",
+					"-lFoundation",
+				);
+				PRODUCT_NAME = "Resource Edit";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "~/projects/install";
+				MAYA_DIRECTORY = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Resource Edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Resource Edit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
